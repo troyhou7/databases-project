@@ -1,8 +1,9 @@
 body{
-	background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=2175&ixlib=rb-0.3.5&q=50&w=1450);
+	background: url(https://i.imgur.com/Uxkce37.jpg);
 	background-size: cover;
 	background-position: center;
-	font-family: Lato;
+    padding-bottom: 20px;
+	font-family: 'Nunito', sans-serif;;
 	color: white;
 }
 html{
@@ -20,5 +21,20 @@ hr{
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.event-card 
+{
+    display: block;
+    background-color: rgba(255,255,255, 0.90);
+    margin-top: 120px;
+    max-width: 700px;
+	border-radius:5px;
+    color: black;
+    line-height: 1.8;
+    font-size: 16px;
+   -webkit-box-shadow: 0 26px 24px 2px rgba(0,0,0,0.24), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    box-shadow: 0 26px 24px 2px rgba(0,0,0,0.24), 0 6px 30px 5px rgba(0,0,0,0.12), 0 8px 10px -5px rgba(0,0,0,0.3);
+    padding: 10px;
 }
 
