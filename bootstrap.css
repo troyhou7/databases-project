@@ -278,6 +278,10 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.navbar-default .navbar-nav > li > a:hover {
+    background:rgb(255,255,255,0.75);
+}
 .glyphicon-asterisk:before {
   content: "\002a";
 }
@@ -4512,8 +4516,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
+  
+  background-color: rgba(255,255,255,.18);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
