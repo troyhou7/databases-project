@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>University Events</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="icon" type="image/png" href="icon.png">
+	<link rel="stylesheet" type="text/css" href="felineApp.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+      <!-- Google Chrome Colorization - for Android -->
+
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i" rel="stylesheet">
+   
+      <!-- iOS ADD TO HOMESCREEN Icon -->
+
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link rel="apple-touch-icon-precomposed" href="icon.png" /> 
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" style="color:#fc0;font-size:15px" href="#"><b>University Events</b></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href=""><b>Home</b></a></li>
+        <li><a href=""><b>Calendar</b></a></li>
+        <li><a href=""><b>Popular Events</b></a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><b>Sign Up</b></a></li>
+        <li><a href="login.html"><b>Log In</b></a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div align="center">
+<div style="max-width:600px" class ="body-content">
+<div align="center">
+    <div class="companyLogo">
+      
+    </div>
+
+
+    <div class="acrylic shadow">
+       
+		<p>
+            <b class="title">University Events Login</b>
+        </p>
+  
+		<form action="submit.php" method="post">
+			<div style="max-width:250px" class="form-group">     
+				<label for="userID">User ID:</label>
+				<input type="text" class="form-control" name="userID" style="margin-bottom:20px"/>
+			</div>
+			<div style="max-width:250px" class="form-group">
+				<label for="password">Password:</label>
+				<input type="password" class="form-control" name="password" style="margin-bottom:20px"/>
+			</div>
+			<div class="form-group">
+				<input type="submit" class="btn btn-primary" value="Login" /> 	
+			</div>
+		</form>	
+    </div>
+    
+</div>
+</div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="bootstrap.js"></script>
+</body>
+</html>
